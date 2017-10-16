@@ -1,0 +1,7 @@
+* [Dark paper](https://docs.google.com/a/megvii.com/document/d/1L249vhREFQ1h7KVqtdOtnwBO1RfPePAPx9uPs312cpA/edit?usp=drive_web)
+* [Invert feature to image work log](https://docs.google.com/document/d/1hqfIxhzcarEWmZ1V1YogWxuR8H_1fMQH4LskvnTZdJg/edit)
+* [Graident polish](https://docs.google.com/a/megvii.com/document/d/1j7Gsn2aT9GHXAqEhL-vvJdr4CYpbgIFf_307poXcfQI/edit?usp=drive_web)
+* [Face unlock distilling](https://docs.google.com/a/megvii.com/document/d/10LBS3KrwK74DKt0IQI-ki3kVsgln8fhyWAz1BfwVG-8/edit?usp=drive_web)
+* [Deep learning paper list for rookie](https://drive.google.com/drive/u/0/search?q=owner:liangjiajun%40megvii.com)
+* [Idiap replay attack dataset overview](https://docs.google.com/a/megvii.com/document/d/1zKM3z442TvgiiEF2HN7sQAnBD5idAanYcUlT6kf3Mp4/edit?usp=drive_web)
+* [Attack 101](https://docs.google.com/a/megvii.com/spreadsheets/d/10rcGZcTmMky_HBnBAbpDc9ViKMQPSDnRWBixK0_POqs/edit?usp=drive_web)
