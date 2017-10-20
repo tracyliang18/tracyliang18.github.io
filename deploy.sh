@@ -3,4 +3,4 @@
 # Author: Jiajun Liang
 # Mail: liangjiajun@megvii.com
 
-bundle exec jekyll serve --host 0.0.0.0 -d ~/www
+bundle exec jekyll build -d ~/www
