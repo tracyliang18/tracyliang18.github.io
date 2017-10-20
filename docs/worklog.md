@@ -6,3 +6,4 @@
 * [Deep learning paper list for rookie](https://drive.google.com/drive/u/0/search?q=owner:liangjiajun%40megvii.com)
 * [Idiap replay attack dataset overview](https://docs.google.com/a/megvii.com/document/d/1zKM3z442TvgiiEF2HN7sQAnBD5idAanYcUlT6kf3Mp4/edit?usp=drive_web)
 * [Attack 101](https://docs.google.com/a/megvii.com/spreadsheets/d/10rcGZcTmMky_HBnBAbpDc9ViKMQPSDnRWBixK0_POqs/edit?usp=drive_web)
+* [Besizer Representation](https://docs.google.com/document/d/1uzAj5mpLBHDEIrApDJ90w8liyTg_BNnuYExjhdmMAw8/edit)
