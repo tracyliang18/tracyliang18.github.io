@@ -7,3 +7,4 @@
 * [Idiap replay attack dataset overview](https://docs.google.com/a/megvii.com/document/d/1zKM3z442TvgiiEF2HN7sQAnBD5idAanYcUlT6kf3Mp4/edit?usp=drive_web)
 * [Attack 101](https://docs.google.com/a/megvii.com/spreadsheets/d/10rcGZcTmMky_HBnBAbpDc9ViKMQPSDnRWBixK0_POqs/edit?usp=drive_web)
 * [Besizer Representation](https://docs.google.com/document/d/1uzAj5mpLBHDEIrApDJ90w8liyTg_BNnuYExjhdmMAw8/edit)
+* [抠脸策略Finetune](https://docs.google.com/document/d/13QK70AcSzFaRhE97M-3KOZpeIoz9DSF2Nqh99_o7IUI/edit)
