@@ -3,4 +3,5 @@
 # Author: Jiajun Liang
 # Mail: liangjiajun@megvii.com
 
+git pull
 bundle exec jekyll build -d ~/www
