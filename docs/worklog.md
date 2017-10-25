@@ -8,3 +8,4 @@
 * [Attack 101](https://docs.google.com/a/megvii.com/spreadsheets/d/10rcGZcTmMky_HBnBAbpDc9ViKMQPSDnRWBixK0_POqs/edit?usp=drive_web)
 * [Besizer Representation](https://docs.google.com/document/d/1uzAj5mpLBHDEIrApDJ90w8liyTg_BNnuYExjhdmMAw8/edit)
 * [动态抠脸 & 抠脸策略Finetune](https://docs.google.com/document/d/13QK70AcSzFaRhE97M-3KOZpeIoz9DSF2Nqh99_o7IUI/edit#)
+* [Deep Compression](https://docs.google.com/document/d/1opnyAlikWswEpanG-V9GNe8hx8MoNOv1ywsAV3jpRxw/edit#heading=h.nopeid5buv94)
