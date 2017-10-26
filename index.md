@@ -4,20 +4,19 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
-## HowTO
+## HowTO :school_satchel:
 
 {% include_relative docs/howto.md %}
 
-## WorkLog
+## WorkLog :gun:
 
 {% include_relative docs/worklog.md %}
 
-## Demos
+## Demos :bulb:
 
 {% include_relative docs/demos.md %}
 
-## Useful
+## Useful :nut_and_bolt:
 
 {% include_relative docs/useful.md %}
 
