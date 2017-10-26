@@ -3,5 +3,15 @@
 # Author: Jiajun Liang
 # Mail: liangjiajun@megvii.com
 
-git pull
+set -x
+
+BASEDIR=$(dirname "$0")
+
+
+# hack(copy imgs for relative issue img src="imgs...") and view locally
+for img_dir in $(find ${BASEDIR} -type d -mindepth 2 -name imgs)
+do
+    cp ${img_dir}/* ${BASEDIR}/imgs/
+done
+
 bundle exec jekyll build -d ~/www
