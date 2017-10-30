@@ -9,6 +9,3 @@ can GANs be used for unsupervised learning of rich feature representations for a
 
 ![](imgs/20171026-143950.png)
 
-* [Adversarial Feature Learning](http://cn.arxiv.org/pdf/1605.09782.pdf)
-
-this is note2

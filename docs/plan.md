@@ -84,9 +84,20 @@ npk-huffman-weight
 * read deep compression
 * refactor STR code,
 
+## 10.25
+
+## 10.26
+match crop_face v2 score
 
 ## 2017.10.25
 * deep compresion experiment and tool
     * alexnet and face unlock
 * data list weight backprop
+
+## 2017.10.28
+* replay attack data v2
+* know something about keras. and replement attack data gen using neupeak
+* model_pred.py model.py 要注意
+
+
 
