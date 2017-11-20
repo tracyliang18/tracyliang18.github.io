@@ -13,6 +13,7 @@
 
 ##[vgg](http://cn.arxiv.org/pdf/1409.1556v6)
 
+
 ![](imgs/20171030-153831.png)
 
 * vgg16 and vgg19 (13 conv (2-2-3-3-3, 16conv 2-2-4-4-4, both with 3 FC)

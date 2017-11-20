@@ -1,0 +1,76 @@
+## 三模型
+＠sunlei
+三个模型combine在/home/liangjiajun/lyxd/model/koala_release/bodao_171107/hako,
+其中panorama.koala.1107_shuffnet1 和panorama.koala.1107_shuffnet2为小模型，panorama.koala.1107_pvanet900为大模型，大模型可能要上GPU.
+
+combine的测略是把三个模型的输出平均即可，活人阈值可以参考下表的threshold一列.(大于该值为活人)
+
+## 抠脸测略
+抠脸策略已经同步到@yufeibra
+
+## 关于质量判断对结果的影响
+目前有两种方法去过滤掉一些＂不好＂的脸，**一个是扔掉小脸，二是扔掉大pose大blur脸**．两种方法我分别称他们为minface和quality, 下面枚举不同minface面积和是否具有quality的不同测略组合．可以看到在卡130x130, 同时具备pose blur quality的测略在FP千一和百一下均具有较好的结果．（其中pose和blur分别卡30度和0.5)
+
+#### FP千一，检出率最佳为93.5%
+| fname                         | minface   |   quality |      TPR |        FPR |   attack |   genuine |   threshold |
+|:------------------------------|:----------|----------:|---------:|-----------:|---------:|----------:|------------:|
+| koala_1107_3model_combine.txt |           |           | 0.869697 | 0.00115798 |     3630 |      6045 |    0.301772 |
+| koala_1107_3model_combine.txt | 100x100   |           | 0.876011 | 0.00109379 |     2597 |      3657 |    0.316853 |
+| koala_1107_3model_combine.txt |           |         1 | 0.876064 | 0.00104668 |     2937 |      4777 |    0.318693 |
+| koala_1107_3model_combine.txt | 110x110   |           | 0.883978 | 0.00112486 |     2353 |      3556 |    0.316853 |
+| koala_1107_3model_combine.txt | 120x120   |           | 0.895207 | 0.00118941 |     2128 |      3363 |    0.316853 |
+| koala_1107_3model_combine.txt | 100x100   |         1 | 0.897609 | 0.00130166 |     2217 |      3073 |    0.382695 |
+| koala_1107_3model_combine.txt | 110x110   |         1 | 0.902293 | 0.001001   |     2006 |      2997 |    0.376741 |
+| koala_1107_3model_combine.txt | 130x130   |           | 0.910363 | 0.00132188 |     1930 |      3026 |    0.316853 |
+| koala_1107_3model_combine.txt | 140x140   |           | 0.912    | 0.00117325 |     1750 |      2557 |    0.311353 |
+| koala_1107_3model_combine.txt | 150x150   |           | 0.914867 | 0.00149551 |     1574 |      2006 |    0.311353 |
+| koala_1107_3model_combine.txt | 120x120   |         1 | 0.914882 | 0.00105411 |     1821 |      2846 |    0.376741 |
+| koala_1107_3model_combine.txt | 150x150   |         1 | 0.922571 | 0.0011422  |     1369 |      1751 |    0.316853 |
+| koala_1107_3model_combine.txt | 130x130   |         1 | 0.930514 | 0.00116144 |     1655 |      2583 |    0.382695 |
+| koala_1107_3model_combine.txt | 140x140   |         1 | **0.935804** | 0.00136116 |     1511 |      2204 |    0.382695 |
+
+
+#### FP百一，检出率最佳为98.06%
+
+| fname                         | minface   |   quality |      TPR |       FPR |   attack |   genuine |   threshold |
+|:------------------------------|:----------|----------:|---------:|----------:|---------:|----------:|------------:|
+| koala_1107_3model_combine.txt |           |           | 0.952617 | 0.010091  |     3630 |      6045 |    0.597275 |
+| koala_1107_3model_combine.txt |           |         1 | 0.953013 | 0.0100481 |     2937 |      4777 |    0.602012 |
+| koala_1107_3model_combine.txt | 100x100   |           | 0.958414 | 0.0101176 |     2597 |      3657 |    0.609198 |
+| koala_1107_3model_combine.txt | 110x110   |         1 | 0.96012  | 0.01001   |     2006 |      2997 |    0.609212 |
+| koala_1107_3model_combine.txt | 100x100   |         1 | 0.962111 | 0.0100879 |     2217 |      3073 |    0.626674 |
+| koala_1107_3model_combine.txt | 110x110   |           | 0.962176 | 0.0101237 |     2353 |      3556 |    0.608062 |
+| koala_1107_3model_combine.txt | 120x120   |         1 | 0.9676   | 0.0101897 |     1821 |      2846 |    0.608062 |
+| koala_1107_3model_combine.txt | 120x120   |           | 0.968045 | 0.01011   |     2128 |      3363 |    0.604542 |
+| koala_1107_3model_combine.txt | 130x130   |           | 0.974611 | 0.0102445 |     1930 |      3026 |    0.609212 |
+| koala_1107_3model_combine.txt | 140x140   |           | 0.974857 | 0.0101682 |     1750 |      2557 |    0.597275 |
+| koala_1107_3model_combine.txt | 150x150   |           | 0.975222 | 0.0104686 |     1574 |      2006 |    0.598017 |
+| koala_1107_3model_combine.txt | 140x140   |         1 | 0.976837 | 0.0104356 |     1511 |      2204 |    0.608062 |
+| koala_1107_3model_combine.txt | 150x150   |         1 | 0.978086 | 0.0102798 |     1369 |      1751 |    0.608062 |
+| koala_1107_3model_combine.txt | 130x130   |         1 | **0.98006**  | 0.0100658 |     1655 |      2583 |    0.626674 |
+
+## 2017-11-09
+weight pruning grad
+![](imgs/20171109-150333.png)
+
+share weight grad
+![](imgs/20171109-150503.png)
+
+try really small learning rate
+try different kmean stragery
+weight decay
+checkpoint optimization state
+
+![](imgs/20171115-124942.png)
+
+
+
+
+
+
+
+
+
+
+
+
