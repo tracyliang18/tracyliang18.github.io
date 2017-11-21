@@ -173,4 +173,11 @@ debug kmean
 try quantize weight
 distill model
 
+# 11.18
+- surreal data runnable, 3d human action video sythesis
+- get chenxi lowbit work log and example code
+- jrh bootstrap koala
+- combine two shuffle net model and test speed, send to sunlei
+- test bm data
+
 
