@@ -69,6 +69,7 @@ def round_bit(x, num_bit):
     x.set_grad_var(O.grad_wrt(y))
     return y
 ```
+
 * [robotic work log](https://docs.google.com/a/megvii.com/document/d/1rzPSTBskdHLe7SEXmeqIrbJ5tWS8M-Q6rFyJbPwSjlo/edit?usp=drive_web)
 
 
@@ -179,5 +180,8 @@ distill model
 - jrh bootstrap koala
 - combine two shuffle net model and test speed, send to sunlei
 - test bm data
+
+## 11.21
+- learn surreal data generation code
 
 
