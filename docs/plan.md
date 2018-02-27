@@ -174,7 +174,7 @@ debug kmean
 try quantize weight
 distill model
 
-# 11.18
+## 11.18
 - surreal data runnable, 3d human action video sythesis
 - get chenxi lowbit work log and example code
 - jrh bootstrap koala
@@ -183,5 +183,165 @@ distill model
 
 ## 11.21
 - learn surreal data generation code
+
+## 12.04
+- try multi layer classifier (for jrh)
+- switch chanmean to fc
+- feature analysis for jrh（SVD）？
+- compression remove bn first
+- train large model
+
+## 2018.01.02
+### data
+
+
+### clean
+华为data 活人 clean
+
+#### copy
+renzhegnji  171222 (rsync eta 1.2 12PM) tmux 11
+orbec/20171219 tmux orbec eta  24*3.... tmux 8
+huawei_convert eta 5:30 scp ing
+
+
+
+
+#### use
+renzhengji local read'
+vivo 红外
+
+### model
+一定要跑起来一个红外model
+
+### research
+koala direction.
+dkf GAN direction
+
+install NPM:
+http://nodejs.cn/download/
+
+## 2018.01.03
+renzhengji process
+vivo process
+huawei
+奥比
+haikang
+
+## 2018.01.04
+把数据弄好，
+树莓派
+开搞C50PA(plan)
+短视频活体，双角度活体
+
+## 2018.01.05
+把数据弄好，
+树莓派
+开搞C50PA
+短视频活体，双角度活体
+
+## 2018.01.08
+C50PA on raspberry
+adversial koala on raspiberry pi
+
+## 2018.01.08
+8PC 数据（收两PC） done
+liyang haikang data doing
+树莓派稳定化 seem done
+
+## 2018.01.10
+sd卡烧制中　done
+jrh 对抗采集 done
+
+##2018.01.11
+pairing example
+boundary optimization network
+
+## 2018.01.15
+整理了数据状态 and work log 状态（求填）
+
+## 2018.01.16
+END-TO-END DETECTION-SEGMENTATION NETWORK WITH ROI CONVOLUTION
+dictionary learning
+ROI convolution
+
+## 2018.01.17
+end to end liveness 
+
+## 2018.01.18
+raspberry talk
+end to end liveness cont.
+huawei data (error processing)
+youyi hospital data (still taring)
+cvpr18 paper review 1.25 deadline (experiment setup)
+
+## 2018.01.22
+koala rgb release new version (crop face inside)
+
+### 2018.01.23
+koala model release
+mongodb: 
+http://api.mongodb.com/python/current/tutorial.html?_ga=2.254958792.1351187032.1516683042-503590261.1516683042
+
+for post in posts.find({"date": {"$lt": d}}).sort("author"):
+
+
+https://github.com/ratiw/vuetable-2
+
+dump 模型
+对sdk分
+
+环境ｏｋ
+模型可ｄｕｍｐ
+分数和rsde一致
+
+koala 发版
+
+online
+/unsullied/sharefs/liangjiajun/workspace/FaceFMP/koala_rgb/scripts/0124_online_release.json
+
+https://lovelive2.svc.brainpp.ml/eval?j=%2Funsullied%2Fsharefs%2Fliangjiajun%2Fworkspace%2FFaceFMP%2Fkoala_rgb%2Fscripts%2F0124_online_release.json&threshold=0.1438445708869646
+
+offline
+/unsullied/sharefs/liangjiajun/workspace/FaceFMP/koala_rgb/scripts/nomagiccrop.offline.0124.final5.json
+
+https://lovelive2.svc.brainpp.ml/eval?j=%2Funsullied%2Fsharefs%2Fliangjiajun%2Fworkspace%2FFaceFMP%2Fkoala_rgb%2Fscripts%2Fnomagiccrop.offline.0124.final5.json&threshold=0.10748285800218582
+
+
+config 跳转到　git
+config 在网页中相互跳转　(config_name)
+和父亲自动compare性能，并显示箭头
+action type 下拉选择
+填写action
+填写comment
+
+tableedit
+https://markcell.github.io/jquery-tabledit/#examples
+
+选择时间
+
+３天
+一周
+两周
+一月
+所有
+
+展示过去多少天
+
+# ##
+Detecting and counting tiny faces
+
+Understanding data augmentation for classification:
+when to warp?
+
+更新
+
+## 2018.02.11
+对抗数据
+修立林badcase
+
+affine transform抠脸　单图
+
+
+
 
 
