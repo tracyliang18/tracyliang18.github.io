@@ -39,7 +39,7 @@
 ![](imgs/20171030-163300.png)
 
 ## [Resnext](http://cn.arxiv.org/abs/1611.05431)
-* group conv and bottleneg 
+* group conv and bottleneg
 
 ![](imgs/20171030-163951.png)
 
